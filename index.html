@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Infográfico Encriptador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/encriptador.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />    
+  </head>
+  <body>
+    <div class="aluraContenido">
+      <img
+        src="assets/img/logoalura.svg"
+        alt="Logo de Alura"
+        class="Aluralogo"
+      />
+    </div>
+    
+
+    <div class="container">
+      <textarea
+        name="textEncriptar"
+        id="areaEncriptar"
+        class="areaEncriptar"
+        placeholder="Escriba el texto aquí"
+      ></textarea>
+      <div class="textAlert">
+        <img
+          src="assets/img/alerta.svg"
+          alt="imagen de alerta"
+          class="imgAlert"
+        />
+        <p class="texto">Solo letras minúsculas y sin tildes</p>
+      </div>
+      <div class="botons">
+        <button class="botonStyle btnEncriptar">Encriptar</button>
+        <button class="botonStyle btnDesencriptar">Desencriptar</button>
+      </div>
+    </div>
+
+   
+    <aside class="cuadroAside">
+      <textarea name="texto encriptado"class="areaEncriptar texEncriptado texto ocultar"></textarea>
+      <img
+        src="assets/img/Muñeco.svg"
+        alt="imagen de Muñeco"
+        class="imgmunieco elements"
+      />
+      <p class="texto textBold text1 elements">Mensaje no encontrado</p>
+      <p class="texto text1 elements">
+        Escribe el texto a encriptar o desencriptar.
+      </p>
+        <p class="txtcopiado ocultar">copiado</p>
+        <button class="botonStyle btnDesencriptar botonAside ocultar">Copiar</button>
+    </aside>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
